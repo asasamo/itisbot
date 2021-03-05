@@ -1,0 +1,9 @@
+{
+    "base_url": "https://web.spaggiari.eu/rest/",
+    "auth": {
+        "login": "v1/auth/login",
+        "status": "v1/auth/status"
+    },
+    "status": "v1/auth/status",
+    "noticeboard": "v1/students/{{studentId}}/noticeboard"
+}

@@ -1,0 +1,25 @@
+{
+    "name": "itis_discord_bot",
+    "version": "1.0.0",
+    "description": "ItisBot: bot discord del server Discord Itis",
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js",
+        "test": "nodemon --ignore 'database/db.json' main.js"
+    },
+    "author": "eliapolloniato",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "discord.js": "^12.2.0",
+        "dotenv": "^8.2.0",
+        "lodash": "^4.17.19",
+        "lowdb": "^1.0.0",
+        "moment": "^2.29.1",
+        "node-fetch": "^2.6.1"
+    },
+    "jshintConfig": {
+        "esversion": 6,
+        "asi": "true"
+    }
+}

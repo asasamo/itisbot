@@ -1,0 +1,4 @@
+node_modules
+database/db.json
+deployDocker.sh
+.env
