@@ -1,6 +1,6 @@
 {
     "botActivity": {
-        "text": "bruciare la scuola.",
+        "text": ";;help, ma non ancora.",
         "type": "WATCHING"
     },
     "welcome": {
@@ -44,6 +44,7 @@
         }
     },
     "embed": {
+        "default": "#2E8BC0",
         "error": {
             "generic": {
                 "defaultColor": "#DF362D"
