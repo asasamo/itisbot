@@ -6,5 +6,5 @@ module.exports.genericImage = (title, imageUrl, color = config.embed.error.gener
     return new Discord.MessageEmbed()
         .setColor(color)
         .setTitle(title)
-        .setThumbnail(imageUrl)
+        .setImage(imageUrl)
 }
